@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value = "wxDiary">
+        <version value = "1"></version>
+    </dbname>
+    <list>
+        <mapping class = "com.example.wxdiary.bean.Diary"></mapping>
+    </list>
+</litepal>

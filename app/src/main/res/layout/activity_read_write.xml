@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#A184CA71"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:hint="select a date from right"
+            android:inputType="none"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_height="wrap_content"
+            android:id="@+id/etTitle"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/icon_calendar"
+            android:layout_weight="1"
+            android:src="@drawable/calendar"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/etReadWrite"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:hint="please input content"></EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btClear"
+            android:background="@drawable/btn_background"
+            android:layout_margin="5dp"
+            android:text="Clear"></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btSave"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_background"
+            android:text="Save"></Button>
+    </LinearLayout>
+</LinearLayout>
